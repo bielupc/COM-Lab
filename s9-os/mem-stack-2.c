@@ -14,7 +14,7 @@ void *TopHeap(){
 void Recursivity(int max, int num){
 	int len;
 	int localVar = num;
-	char buf[1000];
+	char buf[14000];
 
 	localVar++;
 	//MISSING CODE: substitute GGG, HHH
