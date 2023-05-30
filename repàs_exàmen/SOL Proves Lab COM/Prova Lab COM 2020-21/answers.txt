@@ -1,0 +1,9 @@
+Té dos "procesadors" o dos chips amb 24 gb cada un.
+Per cada un dels 2 chips, té 4 cores amb 2 hw threads, un total de 16 hw threads.
+Si, ja que van mapejats un a un.
+
+Si correm el programa en un sol chip, concretament, en un sol core, ja que disposarem només de dos ALU per fer les operacions. I els 4 software threads s'aniran alternant amb els 2 hardware threads dels que dispoesm, obtenint un mal rendiment.
+Perl millor rendiment podem repartir cada programa a un chip i dotar a cada software thread d'un sol core de manera que diposara de dos ALU's per paralelitzat operaicons.
+??? 
+
+

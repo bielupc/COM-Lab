@@ -1,0 +1,27 @@
+Exercici 1
+1)	echo $HOME
+	
+2)	cd $HOME
+	mkdir ProvaLab_COM
+	
+3)	cp ~/Downloads/input.dat .
+	chmod 640 input.dat
+	
+____________________________________________
+
+Exercici 4
+1)	./creator 10 input.txt 1 > sortida.txt
+
+2)	nm ./creator
+
+3)	perquè la variable està en la zona de memòria stack i per tant no se sap fins que no s'executa.
+
+4)	afegir les línies:
+creator-static: creator.c
+	gcc -o creator-static -static creator.c
+
+6)	/usr/bin/time ./creator 10000 input.txt 0
+	/usr/bin/time ./creator 10000 input.txt 1
+	/usr/bin/time ./creator 10000 input.txt 1 5
+	Mostrar el valor del camp "elapsed"	
+	

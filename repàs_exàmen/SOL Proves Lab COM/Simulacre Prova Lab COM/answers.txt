@@ -1,0 +1,4 @@
+time nom_fitxer
+sys time
+
+np nom_fitxer i ls -la pel size

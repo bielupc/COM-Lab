@@ -1,0 +1,4 @@
+echo $HOME
+cd $HOME, mkdir ProvaLab_COM
+cp ~/Desktop/COM Lab/repàs_exàmen/SOL Proves Lab COM/Prova Lab COM 2021-22/input.dat .
+chmod 000 input.dat, chmod u+rw input.dat, chmod g+r input.dat
